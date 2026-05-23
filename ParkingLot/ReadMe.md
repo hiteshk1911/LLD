@@ -62,4 +62,4 @@ Custom Exceptions =>
 * FeeStrategy	        Interface	                 Contract for fee calculation
 * SpotAllocationStrategy	Interface	             Contract for spot selection
 
-![Screenshot 2026-05-24 at 12.19.30 AM.png](Screenshot%202026-05-24%20at%2012.19.30%E2%80%AFAM.png)
+![ClassDiagram.png](ClassDiagram.png)
