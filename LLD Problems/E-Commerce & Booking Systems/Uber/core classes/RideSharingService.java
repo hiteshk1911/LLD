@@ -5,6 +5,7 @@ class RideSharingService {
     private final Map<String, Trip> trips = new ConcurrentHashMap<>();
     private PricingStrategy pricingStrategy;
     private DriverMatchingStrategy driverMatchingStrategy;
+    //Payment Strategy can also be added similarly for extensibility
 
     private RideSharingService() {}
 
