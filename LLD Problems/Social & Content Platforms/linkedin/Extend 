@@ -1,0 +1,41 @@
+Here’s the summary of what you’d add for a Jobs feature in LinkedIn LLD:
+
+Classes
+---------
+Job
+Company
+JobApplication
+SavedJob
+JobAlert
+
+Enums
+--------
+JobStatus
+EmploymentType
+ApplicationStatus
+ExperienceLevel
+
+Interfaces
+------------
+JobSearchStrategy
+JobRecommendationStrategy
+JobRepository
+ApplicationWorkflow
+
+Services
+-----------
+JobService
+JobSearchService
+ApplicationService
+JobRecommendationService
+SavedJobService
+JobNotificationService
+
+Existing classes to extend
+-----------------------------
+Member → apply to jobs, save jobs, receive alerts
+LinkedInSystem → expose job-related APIs
+
+
+
+
