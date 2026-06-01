@@ -1,0 +1,3 @@
+interface SplitStrategy {
+    List<Split> calculateSplits(double totalAmount, User paidBy, List<User> participants, List<Double> splitValues);
+}
